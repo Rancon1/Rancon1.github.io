@@ -132,7 +132,7 @@ a {
 	z-index: 1;
     top: 42px;
 	left: 0;
-	transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out, visibility 0s linear 0s, z-index 0s linear 0.01 ;
 	visibility: hidden;
 	opacity: 0%;
 	margin: 20px 0 0 0;
@@ -213,7 +213,7 @@ a {
 	font-family: sans-serif;
 	position: absolute;
 	left: 300px;
-	bottom: -875px;
+	bottom: -500px;
 
 }
 .sponsors{
@@ -251,6 +251,8 @@ a:hover{
 	width: calc(100% / 4);
 	height: calc(width);
 	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .listimg2{
 	width: 300px;
@@ -271,10 +273,24 @@ a:hover{
 	font-size: 24px;
 	font-family: sans-serif;
 	background-color: #09015f;
-	width: 1150px;
+	width: 80pc;
 	color: #dddddd;
 	padding: 50px;	
-	margin-left: 95px;
+	display: flex;
 	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	display: flex;
+	justify-content: center;
+
+}
+#footer_child4 {
+	font-size: 25px;
+	font-weight: 600;
+	font-family: sans-serif;
+	position: absolute;
+	left: 300px;
+	bottom: -875px;
 
 }
