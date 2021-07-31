@@ -188,7 +188,6 @@ a {
 	visibility: hidden;
 	opacity: 0%;
 	margin: 20px 0 0 0;
-	border-radius: 10px;
 }
 #menu li:hover > ul{
 	transform: translateY(0);
@@ -226,6 +225,6 @@ a {
 .brown{
 	color:rgb(81,42,63);
 }
-a:hover{
-	border-radius: 50px;
+#nav ul a:hover{
+	border-radius:0px;
 }
